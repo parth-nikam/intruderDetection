@@ -7,6 +7,4 @@ This repository contains Python code that demonstrates how to perform intruder d
 ## Sample Video
 
 
-https://img.youtube.com/vi/u81EbmLMxCU/maxresdefault.jpg
-
 [![Watch the video](https://img.youtube.com/vi/u81EbmLMxCU/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
