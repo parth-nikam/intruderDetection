@@ -2,6 +2,7 @@ import cv2
 from ultralytics import YOLO
 import numpy as np
 
+
 cap = cv2.VideoCapture("intruder.mp4")
 
 model = YOLO("yolov8m.pt")
@@ -14,7 +15,7 @@ while True:
     if not ret:
         break
 
-    results = model(frame)
+    results = model(frame, device="mps")
     result = results[0]
     bboxes = np.array(result.boxes.xyxy.cpu(), dtype="int")
     classes = np.array(result.boxes.cls.cpu(), dtype="int")
