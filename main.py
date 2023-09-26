@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import numpy as np
 
 
-cap = cv2.VideoCapture("intruder.mp4")
+cap = cv2.VideoCapture("crowd.mp4")
 
 model = YOLO("yolov8m.pt")
 
